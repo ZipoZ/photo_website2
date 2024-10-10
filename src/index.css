@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: 79 70 229; /* indigo-600 */
+  --color-secondary: 124 58 237; /* purple-600 */
+}
+
+body {
+  background-color: #f3f4f6; /* Light grey background */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cpath d='M54.627,2.269 L59.387,7.029 L54.627,11.789 L49.867,7.029 L54.627,2.269 Z' fill='%23cbd5e1' fill-opacity='0.3'/%3E%3Cpath d='M5.373,57.731 L0.613,52.971 L5.373,48.211 L10.133,52.971 L5.373,57.731 Z' fill='%23cbd5e1' fill-opacity='0.3'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+}
+
+.gradient-bg {
+  background: linear-gradient(45deg, rgb(var(--color-primary) / 0.05), rgb(var(--color-secondary) / 0.05));
+}
